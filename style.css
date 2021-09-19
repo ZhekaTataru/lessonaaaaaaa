@@ -1,0 +1,386 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+    transition: 1s;
+}
+header{
+    height: 70px;
+    background-color: #ffffff;
+    margin: 0;
+    margin-top: -12px;
+}
+.menu{
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-around;
+}
+.text_menu{
+    margin-left: 35px;
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    opacity: 0.8;
+    color: #343e4e;
+    text-decoration: none;
+
+}
+#lg{
+    margin-top: 9px;
+    color: rgb(248, 244, 31);
+    font-size: 41px;
+}
+.container1{
+    width: 100%;
+}
+.sidebar1{
+    margin: 0 auto;
+    display: flex;
+    opacity: 1;
+    background-color: #54A3DA;
+    width: 1501px;
+    height: 850px;
+    
+}
+.banner{
+    left: 160px;
+    position: relative;
+    width: 580px;
+    height: 350px;
+    top: 120px;
+    
+}
+.text_banner{
+    width: 500px;
+    height: 190px;
+    
+}
+.big_text{
+    font-family: 'Ubuntu' sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    color: #F7F6F2;
+    opacity: 1;
+}.little_text{
+    font-weight: normal;
+    margin-top: -20px;
+    font-size: 21px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Ubuntu' sans-serif;
+}
+.Signup{ 
+    width: 150px;
+    height: 14px;
+    font-size: 16px;
+    color: #F7F7F7;
+    opacity: 1;
+    font-weight: bold;
+}
+.little_button{
+    text-decoration: none;
+    color: #F7F7F7;
+    background-color: #FFCE54;
+    border-radius: 4px;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+.input{
+    display: flex;
+    width: 595px;
+    height: 120px;
+}
+#banner_inp , ::placeholder{
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 425px;
+    height: 55px;
+    border: none;
+    font-size: 18px;
+    color: #2D394C;
+}
+.big_button{
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 5px;
+    text-align: center;
+    width: 115px;
+    height: 55px;
+    background-color: #77C344;
+    opacity: 1;
+    
+}
+#button_signup{
+    display: block;
+    margin-top: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+#iphone{
+   
+    display: block;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.container2{
+    width: 100%;
+}
+.sidebar2{
+    justify-content: space-around;
+    display: flex;
+    width: 1501px;
+    height: 159px;
+    margin: 0 auto;
+    background-color: #e2e0e0;
+}
+.clients1{
+    margin-top: 55px;
+    width: 169px;
+    height: 43px;
+    opacity: 0.4;
+    
+}
+.clients2{
+    margin-top: 60px;
+    width: 142px;
+    height: 31px;
+    opacity: 0.4;
+    
+}
+.clients3{
+    margin-top: 60px;
+    width: 131px;
+    height: 46px;
+    opacity: 0.4;
+    
+}
+.clients4{
+    margin-top: 70px;
+    width: 132px;
+    height: 23px;
+    opacity: 0.4;
+    
+}
+.clients5{
+    margin-top: 60px;
+    width: 112px;
+    height: 33px;
+    opacity: 0.4;
+    
+}
+.container3{
+    margin-top: 50px;
+    width: 100%;
+}
+.sidebar3{
+    display: flex;
+    margin: 0 auto;
+    width: 1501px;
+    height: 600px;
+
+}
+.text_s3{
+    
+    text-align: center;
+    width: 320px;
+    height: 70px;
+    margin: 0 auto;
+}
+.text_text{
+    margin-left: 30px;
+    width: 486px;
+    height: 780px;
+}
+.p{
+    margin-bottom: 50px;
+    width: 480px;
+    height: 110px;
+    
+
+}
+.tb{
+    font-size: 22px;
+    opacity: 0.9;
+    color: #2D394C;
+    font-family: 'Ubuntu' sans-serif;
+    
+  
+    
+}
+.tl{
+    line-height: 20px;
+    margin-top: 15px;
+    color: #9499A2;
+    font-size: 15px;
+    opacity: 1;
+    font-family: 'Open Sans', sans-serif; ;
+}
+#icons{
+    color:#64A4D7;
+    font-size: 40px;
+    margin-right: 10px;
+    
+}
+.laptop {
+    
+    width: 50%;
+    height: 780px;
+}
+#mac{
+    position: relative;
+    width:100%;
+    height: 630px;
+}
+.container4{
+    width: 100%;
+}
+.sidebar4{
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-top: 100px;
+    width: 1501px;
+    
+    background-color: #F1F1F2;
+}
+
+.text_text_text{
+    width: 633px;
+    height: 266px;
+    margin-left: 60px  ;
+    margin-top: 50px; 
+}
+.text_lt4{
+    font-size: 16px;
+    opacity: 0.8;
+    color: #5A626E;
+}
+.works{
+    display: flex;
+    width: 100%;
+    height: 473px;
+}
+.img_yacht{
+width: 50%;
+height: 730px;
+}
+#img4{
+position: relative;
+right: 200px;
+width: 1000px;
+height:auto
+   
+}
+.clickers{  
+    margin:  0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 120px;
+    height: 25px;
+}
+.open{
+    background-color: #64A4D7;
+    border-radius: 100%;
+}
+.container5{
+    width: 100%;
+}
+.sidebar5{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-top: 100px;
+    width: 1501px;
+}
+.text_5s{
+    color: #5A626E;
+    opacity: 1;
+    font-size: 40px;
+    margin-top: 55px;
+}
+.tl_5s{
+    color: #5A626E;
+    font-size: 24px;
+    padding-bottom: 30px;
+
+}
+.input1{
+    margin-left: 400px;
+    display: flex;
+    width: 631px;
+    height: 120px;
+}
+#banner_inp1 , ::placeholder{
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 425px;
+    height: 55px;
+    font-size: 18px;
+    color: #2D394C;
+}
+.footer{
+    background-color: rgb(219, 219, 219);
+    width: 1500px;
+    height: 140px;
+    margin: 0 auto;
+    color: black;
+    display: flex;
+    
+}
+
+.logo{
+    margin-left: 130px;
+    display: flex; 
+    align-items: center;
+    font-size: 40px;
+    width: 50%;
+    height: 100%;
+
+}
+.logo_text{
+    align-items: center;
+    display: flex;
+    width: 201px;
+    height: 41px;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+    width: 50%;
+    height: 100%;
+
+}
+.bx-bxs-droplet{
+    color: #a3a3a3;
+
+}
+.tl1{
+    color: black;
+}
+.tl2{
+    color: rgb(148, 148, 148);
+}a i{
+    color: rgb(81, 97, 168);
+    font-size: 40px;
+}
+a{
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+ 
+
+
+
