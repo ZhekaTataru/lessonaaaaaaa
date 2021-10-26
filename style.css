@@ -25,6 +25,17 @@ header{
     display: flex;
     justify-content: space-around;
 }
+.text_menu:hover{
+    transition: 0.5sx;
+    font-weight: bold;
+    margin-left: 35px;
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    opacity: 0.8;
+    color: #e67021;
+    text-decoration: none;
+}
 .text_menu{
     margin-left: 35px;
     position: relative;
@@ -111,6 +122,7 @@ header{
     color: #2D394C;
 }
 .big_button{
+    box-shadow: 2px 2px 2px 2px rgb(30, 146, 36);
     margin-top: 30px;
     margin-left: 40px;
     border-radius: 5px;
@@ -118,6 +130,18 @@ header{
     width: 115px;
     height: 55px;
     background-color: #77C344;
+    opacity: 1;
+    
+}
+.big_button:hover{
+    box-shadow: 2px 2px 2px 2px rgb(30, 146, 36);
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 5px;
+    text-align: center;
+    width: 115px;
+    height: 55px;
+    background-color: #6cd824;
     opacity: 1;
     
 }
@@ -378,7 +402,15 @@ height:auto
 }
 a{
     font-style: normal;
-    color: black;
+    color: rgb(3, 21, 70);
+    text-decoration: none;
+    font-size: 17px;
+}
+a:hover{
+    transition: 0.8s;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(15, 54, 161);
     text-decoration: none;
     font-size: 17px;
 }
